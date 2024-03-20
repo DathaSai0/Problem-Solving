@@ -1,4 +1,4 @@
-// 1. WAJSP to tell the wwather status as per user entered value
+// 1. WAJSP to tell the whether status as per user entered value
 
 let temp = Number(prompt("enter the temperature of weather"));
 if (temp >= 30) {
@@ -9,7 +9,7 @@ if (temp >= 30) {
   console.log("cold temperature");
 }
 
-// 2. WAJSP to check weather the year is leap year or not
+// 2. WAJSP to check whether the year is leap year or not
 
 let year = Number(prompt("Enter the year "));
 
@@ -21,7 +21,7 @@ if (year % 4 === 0 && year % 100 !== 0) {
   console.log("year is not leap year.");
 }
 
-// 3. WAJSP to check weather the alphabet is vowel or not
+// 3. WAJSP to check whether the alphabet is vowel or not
 
 let alphabet = prompt("Enter an alphabet");
 if (
@@ -41,7 +41,7 @@ if (
   console.log(alphabet + " It's a consonent");
 }
 
-// 4. WAJSP to check weather the triangle is equalateral triangle or Isosceles triangle or scalene triangle
+// 4. WAJSP to check whether the triangle is equalateral triangle or Isosceles triangle or scalene triangle
 let s1 = Number(prompt("Enter first s of triangle"));
 let s2 = Number(prompt("Enter second s of triangle"));
 let s3 = Number(prompt("Enter third s of triangle"));
@@ -59,7 +59,7 @@ if (s1 + s2 <= s3 || s1 + s3 <= s2 || s2 + s3 <= s1) {
   console.log("scalene triangle");
 }
 
-// 5. WAJSP to check weather the given number is odd or even
+// 5. WAJSP to check whether the given number is odd or even
 let num = Number(prompt("Enter a number"));
 
 if (num % 2 === 0) {
@@ -123,4 +123,4 @@ month === 1
   ? console.log("November")
   : month === 12
   ? console.log("December")
-  : console.log("Enter number between 1 - 12");
+  : console.log("Enter valid number");
