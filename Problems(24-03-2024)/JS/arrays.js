@@ -45,3 +45,20 @@ for (let i = 0; i < size1; i++) {
 }
 
 console.log(name1, name);
+
+//5.
+let size5 = Number(prompt("Enter no.of words you want to enter in array"));
+let plndrome = [];
+let arr4 = [];
+for (i = 0; i < size5; i++) {
+  arr4[i] = prompt("Enter word" + i + ":");
+  let str = "";
+  for (j = arr4[i].length - 1; j >= 0; j--) {
+    str += arr4[i][j];
+  }
+  if (str === arr4[i]) {
+    plndrome.push(str);
+  }
+}
+console.log(plndrome);
+console.log(arr4);
