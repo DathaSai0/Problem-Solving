@@ -46,7 +46,7 @@ for (let i = 0; i < size1; i++) {
 
 console.log(name1, name);
 
-//5.
+//3.
 let size5 = Number(prompt("Enter no.of words you want to enter in array"));
 let plndrome = [];
 let arr4 = [];
